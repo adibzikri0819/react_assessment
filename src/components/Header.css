@@ -1,0 +1,18 @@
+.page-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #f9f9f9; /* Matches the below-nav background */
+  border-bottom: 1px solid #ddd;
+  z-index: 20;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+/* Heading style based on screenshot */
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}

@@ -1,0 +1,82 @@
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.repo-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.repo-name {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.repo-description {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.repo-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.stars {
+  margin-left: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px auto 0;
+}
+
+.pagination button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination span {
+  font-weight: bold;
+  white-space: nowrap; /* Prevent line break */
+}
+
+.pagination-icon {
+  width: 24px;
+  height: 24px;
+}
+
