@@ -1,6 +1,5 @@
 .container {
   padding: 20px;
-  max-width: 600px;
   margin: auto;
 }
 
@@ -72,7 +71,7 @@
 
 .pagination span {
   font-weight: bold;
-  white-space: nowrap; /* Prevent line break */
+  white-space: nowrap;
 }
 
 .pagination-icon {
